@@ -27,10 +27,13 @@ A responsive and dynamic **Form Builder Web App** built with React. This tool al
 ---
 
 ## 📸 Screenshots
+![form-builder-Screenshots]() <!-- Add a real screenshot URL or delete this line -->
 
-> *(Add 1–2 screenshots showing the UI and form preview section here)*
 
----
+## 📸 Demo
+
+[👉 Live Demo on Vercel]() <!-- Replace with your deployed link -->
+
 
 ## 📦 Installation & Setup
 
