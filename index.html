@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="builder">
+        <h2 id="heading">Form Builder</h2>
+        <div class="controls">
+            <button onclick="addField('text')">Add Text</button>
+            <button onclick="addField('textarea')">Add Textarea</button>
+            <button onclick="addField('checkbox')">Add Checkbox</button>
+            <button onclick="addField('radio')">Add Radio</button>
+            <button onclick="addField('select')">Add Select</button>
+            <button onclick="exportJSON()">Export JSON</button>
+            <button onclick="saveToLocal()">💾 Save</button>
+            <button onclick="loadFromLocal()">📂 Load</button>
+            <button onclick="clearForm()">🗑 Clear</button>
+        </div>
+        <div class="form-builder"></div>
+        <div class="json-output"></div>
+    </div>
+    <div class="preview">
+        <h2 id="heading">Live Preview</h2>
+        <div class="preview-content"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
